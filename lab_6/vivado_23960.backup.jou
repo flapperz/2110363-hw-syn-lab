@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Apr 13 07:43:15 2020
+# Process ID: 23960
+# Current directory: C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26544 C:\Users\flap9\MyData\Workspaces\hw-syn-lab\lab_6\lab_6.xpr
+# Log file: C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_6/vivado.log
+# Journal file: C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_6/lab_6.xpr
+update_compile_order -fileset sources_1
+create_fileset -simset uart
+file mkdir C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_6/lab_6.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_6/lab_6.srcs/sim_1/new/clk9600_test.v w ]
+add_files -fileset sim_1 C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_6/lab_6.srcs/sim_1/new/clk9600_test.v
+delete_fileset [ get_filesets uart ]
+file delete -force C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_6/lab_6.srcs/uart
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top vga_test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source vga_test.tcl
+close_sim
+launch_simulation
+source vga_test.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top clk9600_test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source clk9600_test.tcl
+close_sim
+close_sim

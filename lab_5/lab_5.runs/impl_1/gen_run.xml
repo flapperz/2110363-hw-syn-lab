@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1586454268">
+  <File Type="BITSTR-BMM" Name="basys3_nanolada_system_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="basys3_nanolada_system_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="basys3_nanolada_system_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="basys3_nanolada_system_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="basys3_nanolada_system.tcl"/>
+  <File Type="OPT-TIMING" Name="basys3_nanolada_system_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="basys3_nanolada_system_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="basys3_nanolada_system_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="basys3_nanolada_system_reports.tcl"/>
+  <File Type="OPT-DRC" Name="basys3_nanolada_system_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="basys3_nanolada_system.hwdef"/>
+  <File Type="PWROPT-DCP" Name="basys3_nanolada_system_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="basys3_nanolada_system_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="basys3_nanolada_system_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="basys3_nanolada_system_placed.dcp"/>
+  <File Type="PLACE-IO" Name="basys3_nanolada_system_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="basys3_nanolada_system_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="basys3_nanolada_system_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="basys3_nanolada_system_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="basys3_nanolada_system_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="basys3_nanolada_system_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="basys3_nanolada_system_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="basys3_nanolada_system.bgn"/>
+  <File Type="PLACE-TIMING" Name="basys3_nanolada_system_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="basys3_nanolada_system_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="basys3_nanolada_system.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="basys3_nanolada_system_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="basys3_nanolada_system_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="basys3_nanolada_system_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="basys3_nanolada_system.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="basys3_nanolada_system_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="basys3_nanolada_system_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="basys3_nanolada_system_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="basys3_nanolada_system_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="basys3_nanolada_system_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="basys3_nanolada_system_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="basys3_nanolada_system.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="basys3_nanolada_system_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="basys3_nanolada_system.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="basys3_nanolada_system_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="basys3_nanolada_system_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="basys3_nanolada_system.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="basys3_nanolada_system_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="basys3_nanolada_system_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="basys3_nanolada_system_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="basys3_nanolada_system_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="basys3_nanolada_system_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="basys3_nanolada_system_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="basys3_nanolada_system_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="basys3_nanolada_system_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="basys3_nanolada_system_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="basys3_nanolada_system_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="basys3_nanolada_system_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="basys3_nanolada_system_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="basys3_nanolada_system_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="basys3_nanolada_system_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="basys3_nanolada_system_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="basys3_nanolada_system_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="basys3_nanolada_system_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="basys3_nanolada_system_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="basys3_nanolada_system_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="basys3_nanolada_system.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="basys3_nanolada_system_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="basys3_nanolada_system.rbt"/>
+  <File Type="BITSTR-NKY" Name="basys3_nanolada_system.nky"/>
+  <File Type="BG-DRC" Name="basys3_nanolada_system.drc"/>
+  <File Type="RDI-RDI" Name="basys3_nanolada_system.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../lib/xil_defaultlib/ClockDiv.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../lib/xil_defaultlib/ClockDivArray.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../lib/xil_defaultlib/QuadSevenSeg.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../lib/xil_defaultlib/SegDecoder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lib/nanolada_lib/adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/nanolada_lib/adder.v"/>
+        <Attr Name="ImportTime" Val="1585513216"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lib/nanolada_lib/alu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/nanolada_lib/alu.v"/>
+        <Attr Name="ImportTime" Val="1585513230"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lib/nanolada_lib/control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/nanolada_lib/control.v"/>
+        <Attr Name="ImportTime" Val="1585513243"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lib/nanolada_lib/extender.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/nanolada_lib/extender.v"/>
+        <Attr Name="ImportTime" Val="1585513270"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/memio.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lib/nanolada_lib/mux2_1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/nanolada_lib/mux2_1.v"/>
+        <Attr Name="ImportTime" Val="1585513285"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lib/nanolada_lib/nanocpu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/nanolada_lib/nanocpu.v"/>
+        <Attr Name="ImportTime" Val="1585513198"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lib/nanolada_lib/regfile.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/nanolada_lib/regfile.v"/>
+        <Attr Name="ImportTime" Val="1585513256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lib/nanolada_lib/rom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/nanolada_lib/rom.v"/>
+        <Attr Name="ImportTime" Val="1585513353"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sim_1/new/basys3_nanolada_system.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../lib/xil_defaultlib/BCDCounter.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../lib/xil_defaultlib/DFF.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../lib/xil_defaultlib/FuckCounter.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../lib/xil_defaultlib/RSinglePulser.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../lib/xil_defaultlib/SinglePulser.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../lib/xil_defaultlib/Stack.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lib/nanolada_lib/memory.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/nanolada_lib/memory.v"/>
+        <Attr Name="ImportTime" Val="1585513311"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nanolada_lib/micropc.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/nanolada_lib/micropc.v"/>
+        <Attr Name="ImportTime" Val="1585513302"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lib/nanolada_lib/nano_sc_system.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/nanolada_lib/nano_sc_system.v"/>
+        <Attr Name="ImportTime" Val="1585513159"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/reg_io.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSIMDIR/sim_1/behav/xsim/prog2.list"/>
+    <File Path="$PSIMDIR/sim_1/behav/xsim/prog3.list"/>
+    <File Path="$PSIMDIR/sim_1/behav/xsim/prog.list"/>
+    <File Path="$PSIMDIR/sim_1/behav/xsim/prog1.list"/>
+    <File Path="$PSIMDIR/sim_1/behav/xsim/flapprog.list"/>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="basys3_nanolada_system"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/lib/Basys-3-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/Basys-3-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1583743553"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

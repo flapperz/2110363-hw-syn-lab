@@ -1,0 +1,24 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sim_1/new/basys3_nanolada_system.v,1586255419,verilog,,,,basys3_nanolada_system,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/adder.v,1585513216,verilog,,C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/alu.v,,adder,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/alu.v,1585519744,verilog,,C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/control.v,,alu,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/control.v,1585580284,verilog,,C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/extender.v,,control,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/extender.v,1585513270,verilog,,C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/new/memio.v,,extender,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/memory.v,1585522890,verilog,,C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/mux2_1.v,,memory,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/mux2_1.v,1585513285,verilog,,C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/nanocpu.v,,mux2_1,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/nano_sc_system.v,1585513159,verilog,,,,nano_sc_system,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/nanocpu.v,1585554799,verilog,,C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/regfile.v,,nanocpu,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/regfile.v,1585515019,verilog,,C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/rom.v,,regfile,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/rom.v,1585589780,verilog,,C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sim_1/new/basys3_nanolada_system.v,,rom,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/new/memio.v,1586255995,verilog,,C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/mux2_1.v,,memio,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/new/reg_io.v,1585582503,verilog,,C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/regfile.v,,reg_io,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lib/xil_defaultlib/ClockDiv.v,1581879267,verilog,,C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lib/xil_defaultlib/ClockDivArray.v,,ClockDiv,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lib/xil_defaultlib/ClockDivArray.v,1583726681,verilog,,C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lib/xil_defaultlib/QuadSevenSeg.v,,ClockDivArray,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lib/xil_defaultlib/DFF.v,1583739561,verilog,,C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lib/xil_defaultlib/QuadSevenSeg.v,,DFF,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lib/xil_defaultlib/QuadSevenSeg.v,1581879103,verilog,,C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lib/xil_defaultlib/SegDecoder.v,,QuadSevenSeg,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lib/xil_defaultlib/RSinglePulser.v,1583751591,verilog,,C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lib/xil_defaultlib/SegDecoder.v,,RSinglePulser,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lib/xil_defaultlib/SegDecoder.v,1583743369,verilog,,C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/adder.v,,SegDecoder,,,,,,,,

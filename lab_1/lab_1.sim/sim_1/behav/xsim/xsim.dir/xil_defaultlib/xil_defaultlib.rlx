@@ -1,0 +1,11 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/flap9/MyData/Workspaces/vivado_workspace/lab_1/lab_1.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/vivado_workspace/lab_1/lab_1.srcs/sim_1/new/testDFlipFlop.v,1580055559,verilog,,,,testDFlipFlop,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/vivado_workspace/lab_1/lab_1.srcs/sim_1/new/testShift.v,1580056476,verilog,,,,testShift,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/vivado_workspace/lab_1/lab_1.srcs/sim_1/new/tester.v,1580049901,verilog,,,,tester,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/vivado_workspace/lab_1/lab_1.srcs/sources_1/new/DFlipFlop.v,1580054146,verilog,,C:/Users/flap9/MyData/Workspaces/vivado_workspace/lab_1/lab_1.srcs/sim_1/new/testDFlipFlop.v,,DFlipFlop,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/vivado_workspace/lab_1/lab_1.srcs/sources_1/new/ex4.v,1580056395,verilog,,C:/Users/flap9/MyData/Workspaces/vivado_workspace/lab_1/lab_1.srcs/sim_1/new/testShift.v,,ShiftA;ShiftB,,,,,,,,
+C:/Users/flap9/MyData/Workspaces/vivado_workspace/lab_1/lab_1.srcs/sources_1/new/fullAdder.v,1580051205,verilog,,C:/Users/flap9/MyData/Workspaces/vivado_workspace/lab_1/lab_1.srcs/sim_1/new/tester.v,,fullAdder,,,,,,,,

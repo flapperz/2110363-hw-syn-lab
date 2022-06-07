@@ -1,0 +1,101 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Apr 10 00:46:10 2020
+| Host         : Avalon running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file basys3_nanolada_system_control_sets_placed.rpt
+| Design       : basys3_nanolada_system
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    33 |
+| Unused register locations in slices containing registers |   138 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |           17 |
+|      4 |            4 |
+|      7 |            1 |
+|     14 |            1 |
+|    16+ |           10 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              31 |           25 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               7 |            3 |
+| Yes          | No                    | No                     |              16 |            8 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------+-------------------------+------------------+------------------+----------------+
+|            Clock Signal            |      Enable Signal      | Set/Reset Signal | Slice Load Count | Bel Load Count |
++------------------------------------+-------------------------+------------------+------------------+----------------+
+|  CDA/genblk1[11].fdiv/clkDiv_reg_0 |                         |                  |                1 |              1 |
+|  CDA/genblk1[0].fdiv/clkDiv_reg_0  |                         |                  |                1 |              1 |
+|  CDA/genblk1[10].fdiv/clkDiv_reg_0 |                         |                  |                1 |              1 |
+|  CDA/genblk1[9].fdiv/clkDiv_reg_0  |                         |                  |                1 |              1 |
+|  CDA/genblk1[7].fdiv/clkDiv_reg_0  |                         |                  |                1 |              1 |
+|  CDA/genblk1[5].fdiv/clkDiv_reg_0  |                         |                  |                1 |              1 |
+|  CDA/genblk1[4].fdiv/clkDiv_reg_0  |                         |                  |                1 |              1 |
+|  CDA/genblk1[8].fdiv/clkDiv_reg_0  |                         |                  |                1 |              1 |
+|  CDA/genblk1[12].fdiv/clkDiv_reg_0 |                         |                  |                1 |              1 |
+|  CDA/genblk1[6].fdiv/clkDiv_reg_0  |                         |                  |                1 |              1 |
+|  CDA/genblk1[14].fdiv/clkDiv_reg_0 |                         |                  |                1 |              1 |
+|  CDA/genblk1[15].fdiv/clkDiv_reg_0 |                         |                  |                1 |              1 |
+|  CDA/genblk1[13].fdiv/clkDiv_reg_0 |                         |                  |                1 |              1 |
+|  CDA/genblk1[1].fdiv/clkDiv_reg_0  |                         |                  |                1 |              1 |
+|  CDA/genblk1[2].fdiv/clkDiv_reg_0  |                         |                  |                1 |              1 |
+|  CDA/genblk1[3].fdiv/clkDiv_reg_0  |                         |                  |                1 |              1 |
+|  clk_IBUF_BUFG                     |                         |                  |                1 |              1 |
+|  regs_reg_r1_0_31_0_5_i_1_n_0      | CPU/REGFILE/E[0]        |                  |                2 |              4 |
+|  regs_reg_r1_0_31_0_5_i_1_n_0      | CPU/REGFILE/E[1]        |                  |                2 |              4 |
+|  regs_reg_r1_0_31_0_5_i_1_n_0      | CPU/REGFILE/E[3]        |                  |                3 |              4 |
+|  regs_reg_r1_0_31_0_5_i_1_n_0      | CPU/REGFILE/E[2]        |                  |                1 |              4 |
+|  regs_reg_r1_0_31_0_5_i_1_n_0      |                         | btnC_IBUF        |                3 |              7 |
+|  regs_reg_r1_0_31_0_5_i_1_n_0      |                         |                  |                8 |             14 |
+|  regs_reg_r1_0_31_0_5_i_1_n_0      | CPU/REGFILE/pc_reg[5]_2 |                  |                8 |             32 |
+|  regs_reg_r1_0_31_0_5_i_1_n_0      | CPU/REGFILE/reg_wr      |                  |               12 |             96 |
+|  regs_reg_r1_0_31_0_5_i_1_n_0      | CPU/REGFILE/pc_reg[5]   |                  |               32 |            128 |
+|  regs_reg_r1_0_31_0_5_i_1_n_0      | CPU/REGFILE/pc_reg[5]_1 |                  |               32 |            128 |
+|  regs_reg_r1_0_31_0_5_i_1_n_0      | CPU/REGFILE/pc_reg[5]_3 |                  |               32 |            128 |
+|  regs_reg_r1_0_31_0_5_i_1_n_0      | CPU/REGFILE/pc_reg[5]_5 |                  |               32 |            128 |
+|  regs_reg_r1_0_31_0_5_i_1_n_0      | CPU/REGFILE/pc_reg[5]_0 |                  |               32 |            128 |
+|  regs_reg_r1_0_31_0_5_i_1_n_0      | CPU/REGFILE/pc_reg[5]_4 |                  |               32 |            128 |
+|  regs_reg_r1_0_31_0_5_i_1_n_0      | CPU/REGFILE/pc_reg[5]_6 |                  |               32 |            128 |
+|  regs_reg_r1_0_31_0_5_i_1_n_0      | CPU/REGFILE/pc_reg[5]_7 |                  |               32 |            128 |
++------------------------------------+-------------------------+------------------+------------------+----------------+
+
+

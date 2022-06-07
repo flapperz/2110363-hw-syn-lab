@@ -1,0 +1,25 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lib/xil_defaultlib/QuadSevenSeg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module QuadSevenSeg
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'dp' is not allowed [C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lib/xil_defaultlib/QuadSevenSeg.v:37]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lib/xil_defaultlib/SegDecoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SegDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/extender.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extender
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/new/memio.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memio
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/mux2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/nanocpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nanocpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sources_1/imports/lib/nanolada_lib/rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/flap9/MyData/Workspaces/hw-syn-lab/lab_5/lab_5.srcs/sim_1/new/basys3_nanolada_system.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module basys3_nanolada_system

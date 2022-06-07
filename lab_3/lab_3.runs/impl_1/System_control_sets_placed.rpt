@@ -1,0 +1,88 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Mar 10 11:22:50 2020
+| Host         : Avalon running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file System_control_sets_placed.rpt
+| Design       : System
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    22 |
+| Unused register locations in slices containing registers |   141 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |           17 |
+|      4 |            4 |
+|    16+ |            1 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              59 |           28 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              16 |            8 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------+---------------------------+------------------+------------------+----------------+
+|              Clock Signal             |       Enable Signal       | Set/Reset Signal | Slice Load Count | Bel Load Count |
++---------------------------------------+---------------------------+------------------+------------------+----------------+
+|  clkArr/genblk1[11].fdiv/clkDiv_reg_0 |                           |                  |                1 |              1 |
+|  clkArr/genblk1[10].fdiv/clkDiv_reg_0 |                           |                  |                1 |              1 |
+|  clkArr/genblk1[14].fdiv/clkDiv_reg_0 |                           |                  |                1 |              1 |
+|  clkArr/genblk1[13].fdiv/clkDiv_reg_0 |                           |                  |                1 |              1 |
+|  clkArr/genblk1[0].fdiv/clkDiv_reg_0  |                           |                  |                1 |              1 |
+|  clkArr/genblk1[12].fdiv/clkDiv_reg_0 |                           |                  |                1 |              1 |
+|  clkArr/genblk1[3].fdiv/clkDiv_reg_0  |                           |                  |                1 |              1 |
+|  clkArr/genblk1[4].fdiv/clkDiv_reg_0  |                           |                  |                1 |              1 |
+|  clkArr/genblk1[15].fdiv/clkDiv_reg_0 |                           |                  |                1 |              1 |
+|  clkArr/genblk1[1].fdiv/clkDiv_reg_0  |                           |                  |                1 |              1 |
+|  clkArr/genblk1[2].fdiv/clkDiv_reg_0  |                           |                  |                1 |              1 |
+|  clkArr/genblk1[5].fdiv/clkDiv_reg_0  |                           |                  |                1 |              1 |
+|  clkArr/genblk1[8].fdiv/clkDiv_reg_0  |                           |                  |                1 |              1 |
+|  clkArr/genblk1[6].fdiv/clkDiv_reg_0  |                           |                  |                1 |              1 |
+|  clkArr/genblk1[7].fdiv/clkDiv_reg_0  |                           |                  |                1 |              1 |
+|  clkArr/genblk1[9].fdiv/clkDiv_reg_0  |                           |                  |                1 |              1 |
+|  clk_IBUF_BUFG                        |                           |                  |                1 |              1 |
+|  state_reg[1]_i_2_n_0                 | genblk1[0].rspU/dff2/E[0] |                  |                3 |              4 |
+|  state_reg[1]_i_2_n_0                 | rspSet0/dff2/qr_reg_2[0]  |                  |                2 |              4 |
+|  state_reg[1]_i_2_n_0                 | rspSet0/dff2/E[0]         |                  |                1 |              4 |
+|  state_reg[1]_i_2_n_0                 | rspSet0/dff2/qr_reg_1[0]  |                  |                2 |              4 |
+|  state_reg[1]_i_2_n_0                 |                           |                  |               11 |             42 |
++---------------------------------------+---------------------------+------------------+------------------+----------------+
+
+
