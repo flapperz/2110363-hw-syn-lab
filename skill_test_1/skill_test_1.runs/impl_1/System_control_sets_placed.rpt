@@ -1,0 +1,136 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Mar  9 17:30:10 2020
+| Host         : Avalon running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file System_control_sets_placed.rpt
+| Design       : System
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    69 |
+| Unused register locations in slices containing registers |   477 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |           66 |
+|      3 |            1 |
+|      5 |            1 |
+|      9 |            1 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              78 |           71 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               5 |            1 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------------------+---------------+------------------+------------------+----------------+
+|                Clock Signal               | Enable Signal | Set/Reset Signal | Slice Load Count | Bel Load Count |
++-------------------------------------------+---------------+------------------+------------------+----------------+
+|  clkarrmain/genblk1[2].fdiv/clkDiv_reg_0  |               |                  |                1 |              1 |
+|  clkarrmain/genblk1[1].fdiv/clkDiv_reg_0  |               |                  |                1 |              1 |
+|  clkarrmain/genblk1[15].fdiv/clkDiv_reg_0 |               |                  |                1 |              1 |
+|  clkarrmain/genblk1[6].fdiv/clkDiv_reg_0  |               |                  |                1 |              1 |
+|  dffU2/SR[0]                              |               |                  |                1 |              1 |
+|  clkarrmain/genblk1[14].fdiv/clkDiv_reg_0 |               |                  |                1 |              1 |
+|  clkarr1/genblk1[11].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr1/genblk1[0].fdiv/clkDiv_reg_0     |               |                  |                1 |              1 |
+|  clkarr1/genblk1[10].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr1/genblk1[16].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr1/genblk1[13].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr1/genblk1[14].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr1/genblk1[18].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr1/genblk1[15].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr1/genblk1[17].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr1/genblk1[12].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr1/genblk1[21].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr1/genblk1[23].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr1/genblk1[22].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr1/genblk1[1].fdiv/clkDiv_reg_0     |               |                  |                1 |              1 |
+|  clkarr1/genblk1[20].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr1/genblk1[19].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr1/genblk1[3].fdiv/clkDiv_reg_0     |               |                  |                1 |              1 |
+|  clkarr1/genblk1[4].fdiv/clkDiv_reg_0     |               |                  |                1 |              1 |
+|  clkarr1/genblk1[5].fdiv/clkDiv_reg_0     |               |                  |                1 |              1 |
+|  clkarr1/genblk1[6].fdiv/clkDiv_reg_0     |               |                  |                1 |              1 |
+|  clkarr1/genblk1[2].fdiv/clkDiv_reg_0     |               |                  |                1 |              1 |
+|  clkarrmain/genblk1[13].fdiv/clkDiv_reg_0 |               |                  |                1 |              1 |
+|  clkarr1/genblk1[8].fdiv/clkDiv_reg_0     |               |                  |                1 |              1 |
+|  clkarr1/genblk1[9].fdiv/clkDiv_reg_0     |               |                  |                1 |              1 |
+|  clkarr1/genblk1[7].fdiv/clkDiv_reg_0     |               |                  |                1 |              1 |
+|  clkarr2/genblk1[11].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr2/genblk1[12].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr2/genblk1[10].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr2/genblk1[0].fdiv/clkDiv_reg_0     |               |                  |                1 |              1 |
+|  clkarr2/genblk1[16].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr2/genblk1[15].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr2/genblk1[18].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr2/genblk1[13].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr2/genblk1[17].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr2/genblk1[14].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr2/genblk1[20].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr2/genblk1[22].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr2/genblk1[23].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr2/genblk1[19].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr2/genblk1[24].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr2/genblk1[1].fdiv/clkDiv_reg_0     |               |                  |                1 |              1 |
+|  clkarr2/genblk1[21].fdiv/clkDiv_reg_0    |               |                  |                1 |              1 |
+|  clkarr2/genblk1[4].fdiv/clkDiv_reg_0     |               |                  |                1 |              1 |
+|  clkarr2/genblk1[3].fdiv/clkDiv_reg_0     |               |                  |                1 |              1 |
+|  clkarr2/genblk1[5].fdiv/clkDiv_reg_0     |               |                  |                1 |              1 |
+|  clkarr2/genblk1[6].fdiv/clkDiv_reg_0     |               |                  |                1 |              1 |
+|  clkarr2/genblk1[2].fdiv/clkDiv_reg_0     |               |                  |                1 |              1 |
+|  clkarr2/genblk1[7].fdiv/clkDiv_reg_0     |               |                  |                1 |              1 |
+|  clkarr2/genblk1[9].fdiv/clkDiv_reg_0     |               |                  |                1 |              1 |
+|  clkarr2/genblk1[8].fdiv/clkDiv_reg_0     |               |                  |                1 |              1 |
+|  clkarrmain/genblk1[0].fdiv/clkDiv_reg_0  |               |                  |                1 |              1 |
+|  clkarrmain/genblk1[3].fdiv/clkDiv_reg_0  |               |                  |                1 |              1 |
+|  clkarrmain/genblk1[10].fdiv/clkDiv_reg_0 |               |                  |                1 |              1 |
+|  clkarrmain/genblk1[5].fdiv/clkDiv_reg_0  |               |                  |                1 |              1 |
+|  clkarrmain/genblk1[4].fdiv/clkDiv_reg_0  |               |                  |                1 |              1 |
+|  clkarrmain/genblk1[9].fdiv/clkDiv_reg_0  |               |                  |                1 |              1 |
+|  clkarrmain/genblk1[12].fdiv/clkDiv_reg_0 |               |                  |                1 |              1 |
+|  clkarrmain/genblk1[8].fdiv/clkDiv_reg_0  |               |                  |                1 |              1 |
+|  clkarrmain/genblk1[11].fdiv/clkDiv_reg_0 |               |                  |                1 |              1 |
+|  clkarrmain/genblk1[7].fdiv/clkDiv_reg_0  |               |                  |                1 |              1 |
+|  clk_IBUF_BUFG                            |               |                  |                3 |              3 |
+|  clkarr1/genblk1[24].fdiv/CLK             |               | dffU2/SR[0]      |                1 |              5 |
+|  clkarrmain/genblk1[16].fdiv/CLK          |               |                  |                2 |              9 |
++-------------------------------------------+---------------+------------------+------------------+----------------+
+
+

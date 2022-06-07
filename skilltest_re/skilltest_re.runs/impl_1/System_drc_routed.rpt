@@ -1,0 +1,48 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Mar 23 18:20:26 2020
+| Host         : Avalon running 64-bit major release  (build 9200)
+| Command      : report_drc -file System_drc_routed.rpt -pb System_drc_routed.pb -rpx System_drc_routed.rpx
+| Design       : System
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 2
++-------------+----------+-------------------------------------------------------------+------------+
+| Rule        | Severity | Description                                                 | Violations |
++-------------+----------+-------------------------------------------------------------+------------+
+| PDRC-153    | Warning  | Gated clock check                                           | 1          |
+| PLHOLDVIO-2 | Warning  | Non-Optimal connections which could lead to hold violations | 1          |
++-------------+----------+-------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PDRC-153#1 Warning
+Gated clock check  
+Net grayCounter/clkcount_reg[1] is a gated clock net sourced by a combinational pin grayCounter/led7_i_2/O, cell grayCounter/led7_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PLHOLDVIO-2#1 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT grayCounter/led7_i_2 is driving clock pin of 5 cells. This could lead to large hold time violations. Involved cells are:
+grayCounter/num_reg[0], grayCounter/num_reg[1], grayCounter/num_reg[2], grayCounter/num_reg[3], led7_reg
+Related violations: <none>
+
+

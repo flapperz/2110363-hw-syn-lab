@@ -1,0 +1,185 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Mar 23 18:20:27 2020
+| Host         : Avalon running 64-bit major release  (build 9200)
+| Command      : report_methodology -file System_methodology_drc_routed.rpt -pb System_methodology_drc_routed.pb -rpx System_methodology_drc_routed.rpx
+| Design       : System
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 30
++-----------+----------+-----------------------------+------------+
+| Rule      | Severity | Description                 | Violations |
++-----------+----------+-----------------------------+------------+
+| TIMING-17 | Warning  | Non-clocked sequential cell | 30         |
++-----------+----------+-----------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Warning
+Non-clocked sequential cell  
+The clock pin clkcount_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Warning
+Non-clocked sequential cell  
+The clock pin clkcount_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[10].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[11].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[12].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[13].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[14].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[15].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[16].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[17].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[18].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#12 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[19].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#13 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[1].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#14 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[20].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#15 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[21].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#16 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[22].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#17 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[23].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#18 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[2].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#19 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[3].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#20 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[4].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#21 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[5].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#22 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[6].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#23 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[7].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#24 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[8].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#25 Warning
+Non-clocked sequential cell  
+The clock pin clkdivarr/genblk1[9].fdiv/clkDiv_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#26 Warning
+Non-clocked sequential cell  
+The clock pin grayCounter/num_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#27 Warning
+Non-clocked sequential cell  
+The clock pin grayCounter/num_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#28 Warning
+Non-clocked sequential cell  
+The clock pin grayCounter/num_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#29 Warning
+Non-clocked sequential cell  
+The clock pin grayCounter/num_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#30 Warning
+Non-clocked sequential cell  
+The clock pin led7_reg/C is not reached by a timing clock
+Related violations: <none>
+
+

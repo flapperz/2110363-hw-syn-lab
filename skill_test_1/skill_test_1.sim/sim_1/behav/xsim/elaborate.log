@@ -1,0 +1,24 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 25d382cd3907427e8b8112031605b588 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot System_behav xil_defaultlib.System xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'num0' [C:/Users/flap9/MyData/Workspaces/vivado_workspace/skill_test_1/skill_test_1.srcs/sources_1/new/System.v:62]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'num1' [C:/Users/flap9/MyData/Workspaces/vivado_workspace/skill_test_1/skill_test_1.srcs/sources_1/new/System.v:63]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'num2' [C:/Users/flap9/MyData/Workspaces/vivado_workspace/skill_test_1/skill_test_1.srcs/sources_1/new/System.v:64]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'num3' [C:/Users/flap9/MyData/Workspaces/vivado_workspace/skill_test_1/skill_test_1.srcs/sources_1/new/System.v:65]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ClockDiv
+Compiling module xil_defaultlib.ClockDivArray(NUMBER=26)
+Compiling module xil_defaultlib.ClockDivArray(NUMBER=27)
+Compiling module xil_defaultlib.ClockDivArray_default
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.FuckCounter
+Compiling module xil_defaultlib.SegDecoder
+Compiling module xil_defaultlib.QuadSevenSeg
+Compiling module xil_defaultlib.System
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot System_behav

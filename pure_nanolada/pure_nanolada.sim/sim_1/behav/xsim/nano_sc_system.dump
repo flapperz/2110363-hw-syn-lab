@@ -1,0 +1,502 @@
+$date
+   Mon Mar 30 05:30:55 2020
+$end
+$version
+  2018.3
+$end
+$timescale
+  1ps
+$end
+$scope module nano_sc_system $end
+$var wire 32 ! p_address [31:0] $end
+$var wire 32 " p_data [31:0] $end
+$var wire 32 # d_address [31:0] $end
+$var wire 1 $ mem_wr $end
+$var wire 32 % d_data [31:0] $end
+$var reg 1 & clock $end
+$var reg 1 ' nreset $end
+$scope module CPU $end
+$var wire 32 ! p_address [31:0] $end
+$var wire 32 " p_data [31:0] $end
+$var wire 32 # d_address [31:0] $end
+$var wire 1 $ mem_wr $end
+$var wire 32 % d_data [31:0] $end
+$var wire 1 ( clock $end
+$var wire 1 ) nreset $end
+$var wire 32 * instruction [31:0] $end
+$var wire 6 + opcode [5:0] $end
+$var wire 5 , rs [4:0] $end
+$var wire 5 - rt [4:0] $end
+$var wire 5 . rd [4:0] $end
+$var wire 11 / reserved [10:0] $end
+$var wire 16 0 imm [15:0] $end
+$var wire 26 1 addr [25:0] $end
+$var reg 32 2 pc [31:0] $end
+$var wire 1 3 sel_addpc $end
+$var wire 1 4 sel_pc $end
+$var wire 30 5 pc_add [29:0] $end
+$var wire 1 6 pc_cout $end
+$var wire 30 7 pc_add_b [29:0] $end
+$var wire 30 8 addr_zeroext [29:0] $end
+$var wire 30 9 pc_new [29:0] $end
+$var wire 32 : imm_ext [31:0] $end
+$var wire 2 ; ext_ops [1:0] $end
+$var reg 1 < z_flag $end
+$var reg 1 = c_flag $end
+$var wire 1 > reg_wr $end
+$var wire 1 ? sel_wr $end
+$var wire 1 @ sel_data $end
+$var wire 1 A sel_b $end
+$var wire 1 B z_new $end
+$var wire 1 C c_new $end
+$var wire 2 D alu_ops [1:0] $end
+$var wire 32 E A [31:0] $end
+$var wire 32 F B [31:0] $end
+$var wire 32 G data_selected [31:0] $end
+$var wire 32 H data_S [31:0] $end
+$var wire 32 I data_M [31:0] $end
+$var wire 32 J B_selected [31:0] $end
+$var wire 5 K rw [4:0] $end
+$scope module PCADDER $end
+$var wire 30 5 S [29:0] $end
+$var wire 1 6 Cout $end
+$var wire 30 L A [29:0] $end
+$var wire 30 7 B [29:0] $end
+$var wire 1 M Cin $end
+$var parameter 32 N WIDTH [31:0] $end
+$upscope $end
+$scope module MUXADDPC $end
+$var wire 30 7 out [29:0] $end
+$var wire 30 O in0 [29:0] $end
+$var wire 30 P in1 [29:0] $end
+$var wire 1 3 sel $end
+$var parameter 32 Q WIDTH [31:0] $end
+$upscope $end
+$scope module MUXSELPC $end
+$var wire 30 9 out [29:0] $end
+$var wire 30 5 in0 [29:0] $end
+$var wire 30 8 in1 [29:0] $end
+$var wire 1 4 sel $end
+$var parameter 32 R WIDTH [31:0] $end
+$upscope $end
+$scope module EXTENDER $end
+$var reg 32 S data32 [31:0] $end
+$var wire 16 0 data16 [15:0] $end
+$var wire 2 ; ext_ops [1:0] $end
+$upscope $end
+$scope module MUXRW $end
+$var wire 5 K out [4:0] $end
+$var wire 5 . in0 [4:0] $end
+$var wire 5 - in1 [4:0] $end
+$var wire 1 ? sel $end
+$var parameter 32 T WIDTH [31:0] $end
+$upscope $end
+$scope module REGFILE $end
+$var wire 32 E A [31:0] $end
+$var wire 32 F B [31:0] $end
+$var wire 32 G data [31:0] $end
+$var wire 5 , ra [4:0] $end
+$var wire 5 - rb [4:0] $end
+$var wire 5 K rw [4:0] $end
+$var wire 1 U nwr $end
+$var wire 1 ( clock $end
+$var integer 32 V i $end
+$upscope $end
+$scope module MUXDATA $end
+$var wire 32 G out [31:0] $end
+$var wire 32 H in0 [31:0] $end
+$var wire 32 I in1 [31:0] $end
+$var wire 1 @ sel $end
+$var parameter 32 W WIDTH [31:0] $end
+$upscope $end
+$scope module MUXB $end
+$var wire 32 J out [31:0] $end
+$var wire 32 F in0 [31:0] $end
+$var wire 32 : in1 [31:0] $end
+$var wire 1 A sel $end
+$var parameter 32 X WIDTH [31:0] $end
+$upscope $end
+$scope module ALU $end
+$var reg 32 Y S [31:0] $end
+$var wire 1 B z $end
+$var reg 1 Z Cout $end
+$var wire 32 E A [31:0] $end
+$var wire 32 J B [31:0] $end
+$var wire 1 [ Cin $end
+$var wire 2 D alu_ops [1:0] $end
+$upscope $end
+$scope module CONTROLUNIT $end
+$var reg 1 \ sel_pc $end
+$var reg 1 ] sel_addpc $end
+$var reg 1 ^ sel_wr $end
+$var reg 1 _ sel_b $end
+$var reg 1 ` sel_data $end
+$var reg 1 a reg_wr $end
+$var reg 1 b mem_wr $end
+$var reg 2 c ext_ops [1:0] $end
+$var reg 2 d alu_ops [1:0] $end
+$var wire 6 + opcode [5:0] $end
+$var wire 1 B z_flag $end
+$var parameter 6 e ORI [5:0] $end
+$var parameter 6 f ORUI [5:0] $end
+$var parameter 6 g ADD [5:0] $end
+$var parameter 6 h LW [5:0] $end
+$var parameter 6 i SW [5:0] $end
+$var parameter 6 j BEQ [5:0] $end
+$var parameter 6 k JMP [5:0] $end
+$upscope $end
+$upscope $end
+$scope module PROGMEM $end
+$var wire 32 " data [31:0] $end
+$var wire 27 l address [26:0] $end
+$var reg 32 m mem $end
+$var parameter 32 n DATA_WIDTH [31:0] $end
+$var parameter 32 o ADDR_WIDTH [31:0] $end
+$upscope $end
+$scope module DATAMEM $end
+$var wire 32 % data [31:0] $end
+$var wire 27 p address [26:0] $end
+$var wire 1 $ wr $end
+$var wire 1 q clock $end
+$var reg 32 r mem $end
+$var reg 32 s data_out [31:0] $end
+$var integer 32 t i $end
+$var parameter 32 u DATA_WIDTH [31:0] $end
+$var parameter 32 v ADDR_WIDTH [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx !
+bx "
+bx #
+x$
+bx %
+0&
+0'
+0(
+0)
+bx *
+bx +
+bx ,
+bx -
+bx .
+bx /
+bx 0
+bx 1
+bx 2
+x3
+x4
+bx 5
+x6
+bx 7
+b0xxxxxxxxxxxxxxxxxxxxxxxxxx 8
+bx 9
+bx :
+bx ;
+x<
+x=
+x>
+x?
+x@
+xA
+xB
+xC
+bx D
+bx E
+bx F
+bx G
+bx H
+bx I
+bx J
+bx K
+bx L
+1M
+b11110 N
+b0 O
+bx P
+b11110 Q
+b11110 R
+bx S
+b101 T
+xU
+b100000 V
+b100000 W
+b100000 X
+bx Y
+xZ
+x[
+x\
+x]
+x^
+x_
+x`
+xa
+xb
+bx c
+bx d
+b10000 e
+b10001 f
+b1 g
+b11000 h
+b11100 i
+b100100 j
+b110000 k
+bx l
+b100000001001101011000001000000 m
+b100000 n
+b11011 o
+bx p
+0q
+b1000000001001111001000001000000 r
+bx s
+bx t
+b100000 u
+b11011 v
+$end
+#20000
+b0 !
+bx "
+1&
+1(
+b0 2
+bx 5
+x6
+0<
+0=
+b0 L
+0[
+b0 l
+1q
+#40000
+0&
+1'
+0(
+1)
+0q
+#60000
+bx00 !
+bx "
+1&
+1(
+bx00 2
+bx 5
+x6
+x<
+x=
+bx L
+x[
+bx l
+1q
+#80000
+0&
+0(
+0q
+#100000
+1&
+1(
+bx00 2
+1q
+#120000
+0&
+0(
+0q
+#140000
+1&
+1(
+bx00 2
+1q
+#160000
+0&
+0(
+0q
+#180000
+1&
+1(
+bx00 2
+1q
+#200000
+0&
+0(
+0q
+#220000
+1&
+1(
+bx00 2
+1q
+#240000
+0&
+0(
+0q
+#260000
+1&
+1(
+bx00 2
+1q
+#280000
+0&
+0(
+0q
+#300000
+1&
+1(
+bx00 2
+1q
+#320000
+0&
+0(
+0q
+#340000
+1&
+1(
+bx00 2
+1q
+#360000
+0&
+0(
+0q
+#380000
+1&
+1(
+bx00 2
+1q
+#400000
+0&
+0(
+0q
+#420000
+1&
+1(
+bx00 2
+1q
+#440000
+0&
+0(
+0q
+#460000
+1&
+1(
+bx00 2
+1q
+#480000
+0&
+0(
+0q
+#500000
+1&
+1(
+bx00 2
+1q
+#520000
+0&
+0(
+0q
+#540000
+1&
+1(
+bx00 2
+1q
+#560000
+0&
+0(
+0q
+#580000
+1&
+1(
+bx00 2
+1q
+#600000
+0&
+0(
+0q
+#620000
+1&
+1(
+bx00 2
+1q
+#640000
+0&
+0(
+0q
+#660000
+1&
+1(
+bx00 2
+1q
+#680000
+0&
+0(
+0q
+#700000
+1&
+1(
+bx00 2
+1q
+#720000
+0&
+0(
+0q
+#740000
+1&
+1(
+bx00 2
+1q
+#760000
+0&
+0(
+0q
+#780000
+1&
+1(
+bx00 2
+1q
+#800000
+0&
+0(
+0q
+#820000
+1&
+1(
+bx00 2
+1q
+#840000
+0&
+0(
+0q
+#860000
+1&
+1(
+bx00 2
+1q
+#880000
+0&
+0(
+0q
+#900000
+1&
+1(
+bx00 2
+1q
+#920000
+0&
+0(
+0q
+#940000
+1&
+1(
+bx00 2
+1q
+#960000
+0&
+0(
+0q
+#980000
+1&
+1(
+bx00 2
+1q
+#1000000
+0&
+0(
+0q
